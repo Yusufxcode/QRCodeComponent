@@ -1,0 +1,46 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: hsl(216, 50%, 96%);
+    padding: 5rem 2rem;
+    box-sizing: border-box;
+}
+
+.container {
+    background: hsl(216, 70%, 90%);
+    display: grid;
+    place-content: center;
+    padding: 5rem 0;
+    box-shadow: 0 1rem 1rem rgb(17 17 17 / 10%);
+    box-sizing: border-box;
+}
+
+.QR-Code-Container {
+    width: 15rem;
+    margin: 0 0 var(--gap) 0;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: #fff;
+}
+.QR-Code-Container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.QR-Code-Container h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.QR-Code-Container p {
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+}
